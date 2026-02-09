@@ -141,21 +141,7 @@ Five-year rolling averages were applied to reduce short-term noise and highlight
 
 Key Insights
 
-Oil prices alone do not explain trade balance dynamics; large surpluses appear only in select years, suggesting additional structural factors
-
-Higher oil prices tend to coincide with increased government reliance on oil and gas revenues
-
-Periods of elevated oil prices often align with weaker non-oil GDP performance, suggesting challenges in economic diversification
-
-Oil export volumes remain relatively stable over time, while import values fluctuate sharply in response to external shocks
-
-Inflation spikes are often followed by increases in the key interest rate, indicating a reactive monetary policy stance
-
-Military expenditure declines during oil boom periods but rises during later periods marked by inflationary pressure and geopolitical uncertainty
-
-Long-term population trends appear largely independent of short-term labor market volatility
-
-Rolling averages reveal distinct macroeconomic regimes rather than continuous linear trends
+(to be populated)
 
 Scope and Limitations
 
