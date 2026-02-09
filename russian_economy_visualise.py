@@ -31,8 +31,6 @@ plt.ylabel("Trade Balance (USD)")
 plt.title("Oil Price vs Trade Balance")
 plt.show()
 
-#While oil prices vary significantly over time, Russia’s trade balance remains relatively stable in most years, with a few large surplus outliers. This suggests that oil prices alone do not explain trade balance dynamics, and that other factors such as export volumes, import demand, and external shocks play a significant role.
-
 ##Oil price vs government dependence on oil and gas
 
 #Calculate the best-fit line
@@ -73,7 +71,6 @@ for index,row in subset.iterrows():
              row["year"])
 plt.show()
 
-#Story: "Periods of high oil prices coincide with weaker non-oil GDP growth, suggesting limited economic diversification."
 
 ##Trade balance components over time
 
@@ -92,13 +89,6 @@ plt.title("Oil export volumes and import volumes over time")
 plt.legend()
 plt.show()
 
-#Story: This chart compares the trends in oil export volumes and import values over time. While the units differ, the visualization highlights how both series evolve across economic periods.
-#Interpretation:
-#Blue line: Russia increased physical oil export capacity through the 2000s, but volumes stagnated and later declined, possibly due to market saturation, sanctions, or production constraints.
-#Orange line: Import values are highly sensitive to macroeconomic shocks, exchange rates, sanctions, and oil price cycles.
-#Relationship insight: Despite relatively stable oil export volumes, import values fluctuate significantly, suggesting that Russia’s import capacity is driven more by prices, revenues, and external constraints than by export volume alone.
-
-
 ##CPI vs key rate (inflation response)
 
 subset = df[["year","cpi","key_rate"]].dropna()
@@ -112,8 +102,6 @@ plt.xlabel("Years")
 plt.ylabel("Values")
 plt.legend()
 plt.show()
-
-#Story: This visualization explores whether Russia’s central bank responds to inflation by adjusting the key interest rate. CPI is used as a proxy for inflation, while the key rate represents monetary policy stance. While the two series use different units, plotting them together allows a qualitative assessment of co-movement and response timing.
 
 ##CPI vs key rate (using two y-axes)
 
@@ -159,10 +147,6 @@ plt.legend()
 plt.title("Military expenditure vs oil price")
 plt.show()
 
-#Story: In the 1990s, military expenditure increased sharply 
-#despite a decrease in oil price. From 2000 onwards, spikes in oil price
-#appear to correlate with spikes in military spending, albeit with a lag.
-
 ##Population vs unemployment (social stability)
 
 subset = df[["year","population_size","unemployment_rate"]].dropna()
@@ -185,8 +169,6 @@ plt.legend()
 plt.title("Population size vs unemployment rate",pad=150)
 plt.show()
 
-#Story: This chart compares long-term demographic trends with labor market volatility, not to imply causation but to provide context.
-#Population in Russia declines steadily through the 1990s and 2000s, likely reflecting demographic and migration factors. Unemployment, however, shows sharp cyclical spikes during economic crises, particularly in the late 1990s. The lack of synchronized movement suggests that short-term labor market volatility is largely independent of long-term population change.
 
 ##Rolling averages to show regime shifts
 
@@ -212,9 +194,6 @@ ax3.set_ylabel("Military Expenditure")
 
 plt.show()
 
-#Story:
-#Regime shifts in macroeconomic conditions are visible when using five-year rolling averages.
-#Oil prices exhibit pronounced long-term cycles, with a sustained rise during the 2000s followed by a decline after the global financial crisis. CPI remains relatively stable in earlier periods but enters a higher-inflation regime in the 2010s. Military expenditure as a share of GDP decreases during the oil-boom period and gradually rises during later periods marked by higher inflation and geopolitical uncertainty. While causality cannot be inferred, the alignment of these trends suggests that macroeconomic regimes influence fiscal and policy priorities over time.
 
 
 
