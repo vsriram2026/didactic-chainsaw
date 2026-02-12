@@ -141,7 +141,23 @@ Five-year rolling averages were applied to reduce short-term noise and highlight
 
 Key Insights
 
-(to be populated)
+Fiscal Dependence: Government revenue from oil and gas increases strongly during periods of higher oil prices, indicating structural exposure to commodity cycles.
+
+Military Expenditure: Military spending (as % of GDP) rises during extended oil price booms, suggesting increased fiscal flexibility during high-revenue periods.
+
+Inflation & Monetary Policy: CPI exhibits a structural upward shift after 2011–2012. The key interest rate shows reactive spikes during inflationary or crisis periods, indicating active monetary stabilization efforts.
+
+Trade Balance: Oil price movements do not show a consistently strong linear relationship with trade balance, suggesting additional influencing factors beyond commodity prices.
+
+Non-Oil GDP: The fitted trend line indicates an inverse relationship between oil prices and non-oil GDP over the sample period. This is descriptive and does not imply causation.
+
+Regime Shifts: Five-year rolling averages highlight multi-year structural transitions rather than short-term volatility, particularly in oil prices, inflation levels, and military expenditure.
+
+Population Size vs Unemployment Rate: Population size does not exhibit a clear linear relationship with unemployment rate, indicating that fluctuations in unemployment are likely driven by economic factors rather than population levels alone.
+
+Overall Conclusion: The analysis suggests that oil prices are closely linked to fiscal revenue composition and certain expenditure patterns, while broader macroeconomic outcomes (trade balance, non-oil GDP) appear influenced by additional structural and external factors.
+
+All findings are descriptive and based on exploratory analysis; no causal claims are made.
 
 Scope and Limitations
 
